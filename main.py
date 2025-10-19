@@ -19,7 +19,7 @@ def main():
     encrypted_text = salsa20(input, secret_key, nonce)
     with open("texts/encrypted.txt", "w") as file:
         for byte in encrypted_text:
-            file.write(str(byte) + " ")
+            file.write(hex(byte) + " ")
     
     decrypted_text = salsa20(encrypted_text, secret_key, nonce)
     with open("texts/decrypted.txt", "w") as file:
