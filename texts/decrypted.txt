@@ -1,0 +1,2 @@
+Salsa20 is a stream cipher designed for speed and security! Its design uses 32-bit addition, XOR, and rotation operations to mix data efficiently. Keys can be 128 or 256 bits, and nonces are crucial to avoid repetition. Encryption is fast: ~3 cycles/byte on modern CPUs. Example: encrypt "Hello, Salsa20! #2025" with a key & nonce. Security relies on unpredictability, diffusion, and a robust quarter-round function. Developers love it for high-speed secure communication: TLS, VPNs, and messaging apps!
+Symbols: !@#$%^&*()_+-={}[]|\;:'",.<>/?`~1234567890
